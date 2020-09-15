@@ -26,4 +26,5 @@ Finalmente, el color del título se especifica usando la directiva "ngStyle", as
 <ul>
   <li> <a href="https://code.visualstudio.com/">Visual Studio Code</a> </li>
   <li> <a href="https://angular.io/">Angular</a> </li>
+  <li> <a href="https://rubenreyesa.github.io/SuperMarketAPP-Live/">PWA: SuperMarketAPP - Release</a> </li>
 </ul>
