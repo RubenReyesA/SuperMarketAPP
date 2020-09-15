@@ -1,0 +1,34 @@
+h1{
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+ul{
+  font-size: 20px;
+}
+
+button:hover{
+  background-color: yellow;
+}
+
+button{
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+#new, #products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-color: black;
+  border-style: solid;
+}
+
+#new button{
+  margin-top: 20px;
+}

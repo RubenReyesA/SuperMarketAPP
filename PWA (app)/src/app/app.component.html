@@ -1,0 +1,20 @@
+
+<h1 [ngStyle]="{'color':'green'}"> {{title}} </h1>
+
+
+<div id="products">
+<button (click)="buy()" [disabled] = "button1"> Buy all products! </button>
+<h3> Product List (Name -- Quantity) </h3>
+
+<h2 *ngIf="button1"> {{emptyText}}</h2>
+<ul>
+  <li *ngFor="let product of productList"> {{product.name}} -- {{product.Q}}</li>
+</ul>
+</div>
+
+<div id="new">
+<h3 [ngStyle]="{'color':'blue', 'text-decoration': 'underline'}" > Add a new product </h3>
+Name: <input type="text" name="productName" [(ngModel)]="newName">
+Quantity: <input type="number" name="productQ" [(ngModel)]="newQ">
+<button (click)="addProduct()"> Add new product to the list </button>
+</div>
